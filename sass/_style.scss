@@ -1,0 +1,50 @@
+$primary-color: cornsilk;
+
+body {
+    margin: 0 auto;
+    background-color: $primary-color;
+}
+
+.containerr {
+    padding: 10px;
+    margin: 0 auto;
+
+    .add {
+        margin-bottom: 10px;
+        display: flex;
+
+        input {
+            padding: 3px;
+            flex-grow: 1;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border: 2px solid white;
+        background-color: $primary-color;
+
+        input {
+            margin-right: 10px;
+        }
+
+        label {
+            font-size: 20px;
+            flex-grow: 1;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            color: black;
+        }
+    }
+}

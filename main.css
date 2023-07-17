@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  background-color: cornsilk;
+}
+
+.containerr {
+  padding: 10px;
+  margin: 0 auto;
+}
+.containerr .add {
+  margin-bottom: 10px;
+  display: flex;
+}
+.containerr .add input {
+  padding: 3px;
+  flex-grow: 1;
+}
+.containerr ul {
+  list-style-type: none;
+  padding: 0;
+}
+.containerr ul li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: cornsilk;
+}
+.containerr ul li input {
+  margin-right: 10px;
+}
+.containerr ul li label {
+  font-size: 20px;
+  flex-grow: 1;
+}
+.containerr ul li button {
+  padding: 10px;
+  border: none;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
